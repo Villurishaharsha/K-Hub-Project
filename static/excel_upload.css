@@ -1,0 +1,53 @@
+/* CSS Reset to reset default styles */
+body, h1, form {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px 0;
+    color: #333;
+}
+
+form {
+    width: 300px;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+form input[type="file"] {
+    display: block;
+    margin: 10px 0;
+}
+
+form input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+form input[type="submit"]:focus {
+    outline: none;
+}
+
+/* Optional: Add some box shadow for a nicer look */
+form {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
